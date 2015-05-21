@@ -1,5 +1,7 @@
 /* Lua CJSON floating point conversion routines */
 
+#include "msvc.h"
+
 /* Buffer required to store the largest string representation of a double.
  *
  * Longest double printed with %.14g is 21 characters long:

@@ -25,6 +25,8 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
+#include "msvc.h"
+
 /* Size: Total bytes allocated to *buf
  * Length: String length, excluding optional NULL terminator.
  * Increment: Allocation increments when resizing the string buffer.
